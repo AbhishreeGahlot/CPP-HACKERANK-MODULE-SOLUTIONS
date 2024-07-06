@@ -1,0 +1,23 @@
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+int main() {
+    int a;
+    long b;
+    char mychar;
+    float c;
+    double d;
+
+    // Read input
+    scanf("%d %ld %c %f %lf", &a, &b, &mychar, &c, &d);
+
+    // Output each element
+    printf("%d\n", a);    // Integer
+    printf("%ld\n", b);   // Long
+    printf("%c\n", mychar); // Char
+    printf("%.3f\n", c);  // Float with 3 decimal places
+    printf("%.9lf\n", d); // Double with 9 decimal places
+
+    return 0;
+}
